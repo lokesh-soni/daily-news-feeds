@@ -1,0 +1,19 @@
+{
+ "manifest_version": 2,
+ "name": "News Feed",
+ "description": "Top News from all over India",
+ "version": "1",
+ "author": "Lokesh Soni",
+"browser_action": {
+   "default_title": "Daily News"
+ },
+ "icons" : {
+ 	"16" : "16.png",
+ 	"48" : "48.png",
+ 	"128" : "128.png"
+ },
+"chrome_url_overrides" : {
+  "newtab": "newtab.html"
+},
+ "permissions": ["activeTab"]
+}
